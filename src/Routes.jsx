@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
-import ScrollToTop from "./components/ScrollToTop";
-import ErrorBoundary from "./components/ErrorBoundary";
+import ScrollToTop from "../src/components/ScrollToTop";
+import ErrorBoundary from "../src/components/ErrorBoundary";
 // Add your imports here
 import Homepage from "./pages/homepage";
 import CustomerStories from "./pages/customer-stories";
