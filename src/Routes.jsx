@@ -3,13 +3,13 @@ import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
 import ScrollToTop from "../components/ScrollToTop";
 import ErrorBoundary from "../components/ErrorBoundary";
 // Add your imports here
-import Homepage from "pages/homepage";
-import CustomerStories from "pages/customer-stories";
-import SolutionsByIndustry from "pages/solutions-by-industry";
-import GetStartedHub from "pages/get-started-hub";
-import SecurityCompliance from "pages/security-compliance";
-import ProductDemo from "pages/product-demo";
-import NotFound from "pages/NotFound";
+import Homepage from "./pages/homepage";
+import CustomerStories from "./pages/customer-stories";
+import SolutionsByIndustry from "./pages/solutions-by-industry";
+import GetStartedHub from "./pages/get-started-hub";
+import SecurityCompliance from "./pages/security-compliance";
+import ProductDemo from "./pages/product-demo";
+import NotFound from "./pages/NotFound";
 
 const Routes = () => {
   return (
